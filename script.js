@@ -14,7 +14,7 @@ function writePassword() {
   // if-statement defining the parameters of the generated password
   function generatePassword() {
 
-    // parseInt() changes the value to an integer
+    // parseInt() changes the value to an integer for the for-loop
     passwordLength = parseInt(window.prompt(`How many characters do you want your password to have?`));  
   
     if (passwordLength < 8 || passwordLength > 128) {
@@ -55,7 +55,12 @@ function writePassword() {
       
       
     }
-  
+    
+    console.log(passwordLength);
+    console.log(passArray);
+    console.log(madePass);
+    
+
   } var password = generatePassword();
     var passwordText = document.querySelector("#password");
     passwordText.value = madePass;
