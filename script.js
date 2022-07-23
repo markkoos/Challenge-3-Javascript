@@ -63,6 +63,7 @@ function writePassword() {
 
   } var password = generatePassword();
     var passwordText = document.querySelector("#password");
+    // change assignment to new variable; (not var password)
     passwordText.value = madePass;
 
 }
