@@ -8,7 +8,7 @@ This was done using a series of if-statements followed by a windows.prompt and w
 
 Then a for-loop is used to randomly select a value from the confirmed parameter array and add it to a password string. This process is repeated for the same value of the password length determined in the if-statements.
 
+https://markkoos.github.io/Challenge-3-Javascript/
 
-
-![alt text](/assets/deployed.png)
+![alt text](/Assets/deployed.png)
 
