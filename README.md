@@ -10,5 +10,5 @@ Then a for-loop is used to randomly select a value from the confirmed parameter 
 
 https://markkoos.github.io/Challenge-3-Javascript/
 
-![alt text](/assets/deployed.png)
+![alt text](/Assets/deployed.png)
 
