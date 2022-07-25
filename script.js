@@ -45,7 +45,10 @@ function writePassword() {
     } if (uppConfirm) {
         passArray = passArray.concat(uppChars);
 
-    } 
+    } if (!specialConfirm && !numConfirm && !lowConfirm && !uppConfirm) {
+      window.alert(`dude you gotta include at least one of the criteria LOL`)
+      return;
+    }
     
     // for-loop that creates the password being generated
 
